@@ -8,6 +8,7 @@
             "email": "vignesh.jag@gmail.com"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": "^8.0",
         "doctrine/dbal": "^3.0",
