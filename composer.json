@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Vigneshc91\\ValidationGenerator\\": "src/"
+            "Vigneshc91\\LaravelValidationGenerator\\": "src/"
         }
     },
     "extra": {
