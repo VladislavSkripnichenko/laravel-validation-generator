@@ -23,7 +23,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Vigneshc91\\ValidationGenerator\\ValidationGeneratorServiceProvider"
+                "Vigneshc91\\LaravelValidationGenerator\\ValidationGeneratorServiceProvider"
             ]
         }
     }
