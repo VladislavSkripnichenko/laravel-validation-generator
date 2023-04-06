@@ -9,17 +9,20 @@
         }
     ],
     "require": {
-        "doctrine/dbal": "^2.8"
+        "php": "^8.0",
+        "doctrine/dbal": "^3.0",
+        "illuminate/support": "^9.0",
+        "illuminate/console": "^9.0"
     },
     "autoload": {
         "psr-4": {
-            "Vigneshc91\\LaravelValidationGenerator\\": "src/"
+            "Vigneshc91\\ValidationGenerator\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Vigneshc91\\LaravelValidationGenerator\\ValidationGeneratorServiceProvider"
+                "Vigneshc91\\ValidationGenerator\\ValidationGeneratorServiceProvider"
             ]
         }
     }
